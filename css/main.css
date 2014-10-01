@@ -30,6 +30,12 @@ img {
     width: 100%;
 }
 
+.body-copy {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
 .title {
     margin: 0;
     padding: 0;
@@ -51,7 +57,7 @@ img {
     overflow: hidden;
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 25em) {
     
     .nav li {
         display: inline-block;
@@ -74,7 +80,6 @@ img {
     }
     
 }
-
 
 
 
