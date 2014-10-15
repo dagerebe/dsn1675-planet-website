@@ -16,6 +16,30 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+   html {
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+   html {
+    font-size: 130%;
+  }
+
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -69,7 +93,9 @@ img {
   background-color: grey;
 }
 
-/** colour for grey box is #e2e2e2 */
+.behind-discovery {
+  background-color: #e2e2e2;
+}
 
 @media only screen and (min-width: 25em) {
     
@@ -80,10 +106,14 @@ img {
     .nav {
         text-align: center;
     }
+
+    .foot-center {
+      text-align: center;
+    }
     
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 38em) {
     
     .title {
         float: left;
@@ -92,9 +122,66 @@ img {
     .nav {
         float: left;
     }
+
+    .left-copyright {
+      text-align: left;
+    }
+
+    .right-nav {
+      float: right;
+    }
+
+    .discover-para {
+      float: left;
+    }
+
+    .moon-right {
+      padding-right: 1.5rem;
+    }
     
+    .moon-left {
+      padding-left: 1.5rem;
+    }
+
+    .side {
+      padding-left: 1.5rem;
+    }
+
+    .med-pad-bot {
+      padding-bottom: 1.5rem;
+    }
+
 }
 
+@media only screen and (min-width: 60em) {
+
+    .data dt {
+      float: left;
+      width: 30%;
+    }
+
+     .data-moons dt {
+      float: left;
+      width: 30%;
+    }
+
+    .gutter-l {
+      padding-left: 1.5rem;
+    }
+
+    .moon-right {
+      padding-right: 0;
+    }
+    
+    .moon-left {
+      padding-left: 0;
+    } 
+
+    .gutter-l {
+      padding-left: 1.5rem;
+    }
+
+}
 
 
 
