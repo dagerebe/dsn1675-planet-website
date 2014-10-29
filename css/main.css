@@ -16,6 +16,7 @@ html {
   text-size-adjust: 100%;
 }
 
+
 @media only screen and (min-width: 60em) {
 
   html {
@@ -85,7 +86,7 @@ img {
   background-color: lightgrey;
 }
 
-.behind-planets {
+.behind {
   background-color: #e2e2e2;
 }
 
@@ -93,9 +94,42 @@ img {
   background-color: grey;
 }
 
-.behind-discovery {
-  background-color: #e2e2e2;
+.center {
+  text-align: center;
 }
+
+label {
+  display: block;
+}
+
+input + label {
+  display: inline-block;
+}
+
+.wid {
+  width: 100%;
+  height: 3em;
+}
+
+.long {
+  height: 15rem;
+}
+
+button {
+  border-radius: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.wid {
+  width: 100%;
+}
+
+form {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
 
 @media only screen and (min-width: 25em) {
     
