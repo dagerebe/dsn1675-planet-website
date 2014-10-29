@@ -130,6 +130,10 @@ form {
   margin: 0 auto;
 }
 
+.radio {
+  white-space: nowrap;
+}
+
 
 @media only screen and (min-width: 25em) {
     
