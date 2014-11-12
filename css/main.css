@@ -55,6 +55,14 @@ img {
     width: 100%;
 }
 
+h1 {
+  font-family: 'Squada One', cursive;
+}
+
+h2 {
+  font-family: 'Squada One', cursive;
+}
+
 .title {
     margin: 0;
     padding: 0;
@@ -73,25 +81,22 @@ img {
 }
 
 .head {
-    background-color: lightgrey;
+    background-color: white;
     overflow: hidden;
 }
 
 .grey {
-  background-color: #e2e2e2;
+  background-color: #2F4F4F;
+  color: white;
   text-align: center;
 }
 
-.foot {
-  background-color: lightgrey;
-}
-
-.behind {
+.back {
   background-color: #e2e2e2;
 }
 
 .light {
-  background-color: grey;
+  background-color: #D3D3D3;
 }
 
 .center {
